@@ -115,13 +115,12 @@ const jsonLd = {
           "@type": "Service",
           name: "IT顧問",
           description:
-            "月1〜2回の打ち合わせで、AIに任せる仕事を決め、会社専用のAIエージェントや自動化を作り、社員が使えるまで教える顧問。期間の縛りなし。",
+            "社内のIT担当として中に入り、月2回の打ち合わせとチャット相談でホームページ・業務システム・AI活用までまとめて対応する顧問。最低契約期間なし。",
         },
         priceSpecification: {
           "@type": "UnitPriceSpecification",
           price: "150000",
           minPrice: "150000",
-          maxPrice: "250000",
           priceCurrency: "JPY",
           valueAddedTaxIncluded: false,
           unitText: "月",

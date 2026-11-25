@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Co } from "./AwYou";
 import { useYou } from "./store";
 
-const TASKS = ["困りごとを聞く", "頼む仕事を決める", "進め方を決める", "お金を確かめる", "話をする"];
+const TASKS = ["困りごとを聞く", "頼む仕事を決める", "進め方を決める", "料金を確認する", "話をする"];
 
 /**
  * IT担当（ALPACA）の仕事の札。名前か困りごとを入れた人にだけ出る。

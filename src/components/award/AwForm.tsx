@@ -31,7 +31,7 @@ export default function AwForm() {
       return;
     }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
-      setErr("メールの形を確かめてください。");
+      setErr("メールアドレスの形式を確認してください。");
       return;
     }
     setErr("");
@@ -65,9 +65,9 @@ export default function AwForm() {
     <form className="aw-form" onSubmit={onSubmit} noValidate data-rise>
       {filled && (
         <p className="aw-form__pre">
-          <span className="aw-nb">一番上で入れてもらった内容を</span>
-          <span className="aw-nb">入れてあります。</span>
-          <span className="aw-nb">書き直せます。</span>
+          <span className="aw-nb">上で入力いただいた内容が</span>
+          <span className="aw-nb">入っています。</span>
+          <span className="aw-nb">書き直しもできます。</span>
         </p>
       )}
       <label className="aw-form__f">

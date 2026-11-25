@@ -23,7 +23,7 @@ export default function TokushohoPage() {
               特定商取引法に基づく表記
             </h1>
             <p className="text-sm text-[#1A202C]/65">
-              最終更新日: 2026年9月25日
+              最終更新日: 2026年11月25日
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function TokushohoPage() {
             <Row label="支払時期">
               <ul className="space-y-1.5">
                 <li>
-                  IT顧問（月額）：月額前払い。毎月1日に当月分を請求し、月末までにお支払いいただきます。
+                  IT顧問（月額）：毎月1日に当月分を請求し、当月末までにお支払いいただきます。
                 </li>
                 <li>
                   システム開発・ホームページ制作：契約時に着手金として50%、納品時に残金50%
@@ -106,7 +106,7 @@ export default function TokushohoPage() {
               <p className="mb-3 font-bold">IT顧問（月額）</p>
               <ul className="list-disc pl-5 space-y-1 mb-4">
                 <li>契約期間の縛りはなく、月単位で解約できます。</li>
-                <li>解約は前月末までにメールか電話でご連絡ください。</li>
+                <li>解約は前月末までにメール・電話・チャットのいずれかでご連絡ください。</li>
                 <li>既にお支払い済みの月額料金は返金できません。</li>
               </ul>
               <p className="mb-3 font-bold">システム開発・ホームページ制作</p>

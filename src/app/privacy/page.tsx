@@ -23,7 +23,7 @@ export default function PrivacyPage() {
               プライバシーポリシー
             </h1>
             <p className="text-sm text-[#1A202C]/65">
-              制定日: 2026年5月10日 / 最終更新日: 2026年5月10日
+              制定日: 2026年5月10日 / 最終更新日: 2026年11月25日
             </p>
           </div>
 
@@ -82,8 +82,7 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-5 space-y-1">
                 <li>メール送信サービス: Resend (Resend, Inc.)</li>
-                <li>ホスティング: Vercel Inc.</li>
-                <li>ドメイン・DNS: Cloudflare, Inc. 等</li>
+                <li>ホスティング・ドメイン・DNS: Cloudflare, Inc. 等</li>
                 <li>
                   業務利用するクラウドサービス: Google Workspace、GitHub 等
                 </li>
@@ -118,7 +117,7 @@ export default function PrivacyPage() {
 
             <Section title="9. Cookie・アクセス解析の利用">
               <p>
-                当サイトでは、サイト改善およびユーザー体験の向上を目的として、Cookieやアクセス解析ツール（例: Google Search Console、Vercel Analytics 等）を利用する場合があります。これらは個人を特定する情報を含まない統計データの取得に限られます。Cookieの利用はブラウザ設定により拒否することができます。
+                当サイトでは、サイト改善およびユーザー体験の向上を目的として、Cookieやアクセス解析ツール（例: Google Search Console、Cloudflare Web Analytics 等）を利用する場合があります。これらは個人を特定する情報を含まない統計データの取得に限られます。Cookieの利用はブラウザ設定により拒否することができます。
               </p>
             </Section>
 
