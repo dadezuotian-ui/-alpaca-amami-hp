@@ -29,7 +29,7 @@ export type Service = {
 };
 
 const MORE_LABEL: Record<Service["id"], string> = {
-  web: "見本10件と進め方を見る",
+  web: "見本10本と進め方を見る",
   system: "どう変わるか・作れるものの例を見る",
   komon: "どう変わるか・流れを見る",
 };

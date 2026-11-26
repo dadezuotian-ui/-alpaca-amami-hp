@@ -55,7 +55,7 @@ export const useYou = () => useSyncExternalStore(subscribeYou, getYou, () => EMP
 export const FIRST: Record<Exclude<Worry, "">, "system" | "web" | "komon"> = { docs: "system", hp: "web", ai: "komon" };
 
 export const WORRIES: { id: Exclude<Worry, "">; label: string; msg: string }[] = [
-  { id: "docs", label: "見積や書類づくりに時間がかかる", msg: "見積や書類づくりに時間がかかっている。" },
+  { id: "docs", label: "見積もりや書類づくりに時間がかかる", msg: "見積もりや書類づくりに時間がかかっている。" },
   { id: "hp", label: "ホームページから問い合わせが来ない", msg: "ホームページから問い合わせが来ない。" },
   { id: "ai", label: "AIを何に使えばいいか分からない", msg: "AIを何に使えばいいか分からない。" },
 ];

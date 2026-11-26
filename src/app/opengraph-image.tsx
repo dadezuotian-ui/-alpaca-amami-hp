@@ -56,7 +56,7 @@ export default async function OgImage() {
             lineHeight: 1.6,
           }}
         >
-          IT顧問・システム開発・HP制作
+          IT顧問・システム開発・ホームページ制作
         </div>
 
         <div

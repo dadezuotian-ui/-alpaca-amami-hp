@@ -23,7 +23,7 @@ export default function TokushohoPage() {
               特定商取引法に基づく表記
             </h1>
             <p className="text-sm text-[#1A202C]/65">
-              最終更新日: 2026年11月25日
+              最終更新日: 2026年11月26日
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function TokushohoPage() {
               </a>
               <br />
               <span className="text-xs text-[#1A202C]/60">
-                ※ お問い合わせは原則メールにて承っております。
+                ※ お問い合わせはメール・お電話で承っております（電話の受付時間：平日 9:00-18:00）。
               </span>
             </Row>
 
@@ -61,7 +61,7 @@ export default function TokushohoPage() {
             <Row label="販売価格">
               <ul className="space-y-1.5">
                 <li>IT顧問：月額¥150,000（税別）</li>
-                <li>システム開発：要見積もり（税別）</li>
+                <li>システム開発：お見積もり（金額は税別）</li>
                 <li>ホームページ制作：¥250,000〜（税別）</li>
               </ul>
               <p className="text-xs text-[#1A202C]/60 mt-2">
@@ -74,6 +74,9 @@ export default function TokushohoPage() {
                 <li>消費税</li>
                 <li>銀行振込手数料（お客様負担）</li>
                 <li>AIサービスの利用料の実費（AIのサービスを使う場合）</li>
+                <li>
+                  ALPACAは奄美大島が拠点のため、遠方へ伺う時は交通費をいただきます。
+                </li>
               </ul>
             </Row>
 
@@ -88,6 +91,9 @@ export default function TokushohoPage() {
               <ul className="space-y-1.5">
                 <li>
                   IT顧問（月額）：毎月1日に当月分を請求し、当月末までにお支払いいただきます。
+                </li>
+                <li>
+                  ※ 月の途中から開始する場合の初回ご請求については、ご契約時に個別にご案内いたします。
                 </li>
                 <li>
                   システム開発・ホームページ制作：契約時に着手金として50%、納品時に残金50%
@@ -105,8 +111,8 @@ export default function TokushohoPage() {
             <Row label="キャンセル・解約・返金">
               <p className="mb-3 font-bold">IT顧問（月額）</p>
               <ul className="list-disc pl-5 space-y-1 mb-4">
-                <li>契約期間の縛りはなく、月単位で解約できます。</li>
-                <li>解約は前月末までにメール・電話・チャットのいずれかでご連絡ください。</li>
+                <li>最低契約期間は設けておりません。月単位で解約できます。</li>
+                <li>解約は、解約を希望する月の前月末までにメール・電話・チャットのいずれかでご連絡ください。</li>
                 <li>既にお支払い済みの月額料金は返金できません。</li>
               </ul>
               <p className="mb-3 font-bold">システム開発・ホームページ制作</p>

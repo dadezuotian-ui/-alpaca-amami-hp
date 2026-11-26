@@ -169,7 +169,7 @@ const COMPANY: [string, React.ReactNode][] = [
   ["屋号", "ALPACA"],
   ["代表", "作田 大地（さくだ だいち）"],
   ["事業内容", "IT顧問／システム開発／ホームページ制作"],
-  ["所在地", "鹿児島県奄美市"],
+  ["所在地", SITE.address],
 ];
 
 function SecHead({ n, title, id }: { n: string; title: React.ReactNode; id: string }) {
@@ -340,7 +340,7 @@ export default function Home() {
               ))}
             </ul>
             <p className="aw-about__txt" data-rise>
-              {jp("ALPACAは、奄美の会社のIT担当として、奄美大島で始めました。ホームページも、業務のシステムも、AIの使い方も、ここで引き受けます。")}
+              {jp("ALPACAは、奄美大島で、地元の会社のIT担当として仕事をしています。ホームページも、業務のシステムも、AIの使い方も、ここで引き受けます。")}
             </p>
             <p className="aw-about__txt aw-about__txt--end" data-rise>
               {jp("迷ったら、まずALPACAに聞いてください。")}
